@@ -19,4 +19,4 @@
 
 ## Releasing
 
-Bump `version` in `pyproject.toml`, merge to `main`, then push a matching tag: `git tag v0.1.1 && git push origin v0.1.1`. The `publish` workflow tests, builds and uploads to PyPI through trusted publishing, so no token is needed.
+Bump `version` in `pyproject.toml` and merge to `main`. Then publish a GitHub release tagged `v<version>` (on the website, or `gh release create v0.1.1`), or run the `publish` workflow on `main` by hand. It tests, builds and uploads to PyPI through trusted publishing, so no token is needed. A version that's already on PyPI is skipped.
