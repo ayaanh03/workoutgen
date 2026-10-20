@@ -1,6 +1,6 @@
 ---
 name: workoutgen
-description: Create Apple Watch custom workouts as .workout files (the format the iPhone Workout app shares and imports) from a short text spec, or decode a .workout back to text. Use when someone wants a structured run on their Apple Watch (warmup, intervals, repeats, recoveries, cooldown, pace / heart-rate / cadence / power alerts), or wants to read or edit a .workout file. Python 3, no dependencies.
+description: Create Apple Watch custom workouts as .workout files (the WorkoutKit format the iPhone Workout app shares and imports) from a short text spec, or decode a .workout back to text. Use when someone wants a structured run on their Apple Watch (intervals, tempo, long run, warmup, repeats, recoveries, cooldown, pace / heart-rate zone / cadence / power alerts), asks how to make or import an Apple Watch custom workout, wants a training plan sent to their Watch, or wants to read or edit a .workout file. Python 3, no dependencies, no Xcode.
 license: MIT
 compatibility: Requires Python 3.8+. The output is imported by the iPhone Workout app and synced to a paired Apple Watch.
 ---
