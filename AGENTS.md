@@ -14,5 +14,5 @@
 - Never guess a field number, enum value or unit. A mapping lands only together with a real Workout app export in `fixtures/` that decodes to its `.txt` spec and rebuilds byte-for-byte.
 - Don't edit existing fixture `.workout` files. They are untouched exports.
 - Unknown input must fail loudly with a one-line error (`UNMAPPED`). Never fall back silently.
-- Keep the field map in the module docstring and the README tables in sync with the code.
+- Keep the field map (module docstring and `FORMAT.md`) and the README / SKILL.md tables in sync with the code.
 - Adding a variant: follow `CONTRIBUTING.md`.
