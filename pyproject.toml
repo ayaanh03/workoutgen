@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workoutgen"
+version = "0.1.0"
+description = "Build and decode Apple Watch custom workout (.workout) files from a short text spec. One file, no dependencies."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+keywords = ["apple-watch", "workoutkit", "workout", "running", "intervals", "protobuf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/ayaanh03/workoutgen"
+Issues = "https://github.com/ayaanh03/workoutgen/issues"
+
+[project.scripts]
+workoutgen = "workoutgen:main"
+
+[tool.setuptools]
+py-modules = ["workoutgen"]
