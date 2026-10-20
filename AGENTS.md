@@ -16,3 +16,7 @@
 - Unknown input must fail loudly with a one-line error (`UNMAPPED`). Never fall back silently.
 - Keep the field map (module docstring and `FORMAT.md`) and the README / SKILL.md tables in sync with the code.
 - Adding a variant: follow `CONTRIBUTING.md`.
+
+## Releasing
+
+Bump `version` in `pyproject.toml`, merge to `main`, then push a matching tag: `git tag v0.1.1 && git push origin v0.1.1`. The `publish` workflow tests, builds and uploads to PyPI through trusted publishing, so no token is needed.
