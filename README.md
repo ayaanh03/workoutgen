@@ -24,7 +24,7 @@ python3 workoutgen.py decode intervals.workout   # prints the spec back
 
 Get the `.workout` onto the iPhone paired with your Watch (AirDrop, Files, Messages, a download link) and open it. The Workout app imports it.
 
-Prefer a command? `pipx install git+https://github.com/ayaanh03/workoutgen`, or run it without installing: `uvx --from git+https://github.com/ayaanh03/workoutgen workoutgen build intervals.txt`.
+Prefer a command? `pipx install workoutgen` (from [PyPI](https://pypi.org/project/workoutgen/)), or run it without installing: `uvx workoutgen build intervals.txt`.
 
 ## Spec
 
